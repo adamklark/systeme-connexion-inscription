@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 2.5px;
+}
+
+/*navigation */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    font-weight: bold;
+    background-color: #8E0202;
+    
+    color: #fff;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 50px;
+}
+.nav-links{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgb(236, 231, 231);
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+/* accueil */
+.home-container{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+}
+
+.home-container img{
+    position: relative;
+    width: 100%;
+    height: 92vh;
+}
+
+.home-container, .texte{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 92vh;
+    color: #fff;
+}
+
+.home-container h3{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* Inscription-connection*/
+.login-signup-container{
+    width: 100%;
+    height: 92vh;
+}
+
+.login-signup-container img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+}
+
+.login-signup-container, .container-formulary{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 92vh;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+.formulary{
+    width: 50%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: grey;*/
+} 
+
+.formulary h3{
+    font-size: 50px;
+    color: #fff;
+}
+
+input{
+    width: 446px;
+    height: 56px;
+    margin: 15px;
+    padding-left: 20px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    width: 226px;
+    height: 66px;
+    border-radius: 500px;
+    background-color: #FF0000;
+    border: none;
+}
+
+.btn h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+input::placeholder{
+    font-size: 30px;
+    color: #000;
+}
